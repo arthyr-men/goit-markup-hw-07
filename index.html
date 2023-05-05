@@ -18,31 +18,111 @@
       
  </head>
  <body class="body">
-    <header class="top-line-body"> 
-      <div class="container top-line-body-container">
-      <nav class="nav-logo-class"><a class="logo-class-portfolio link "
-          href="./index.html">Web<span class="stydio-header-color link ">Studio</span></a>
-          <!--
-      <ul class="menu-nav-header list" >
-         
-      <li class="studio-header-portfolio-link list"><a class="studio-header-portfolio active link" href="./index.html">Studio</a></li>
-      <li class="studio-header-portfolio-link list"><a class="studio-header-portfolio link" href="./portfolio.html">Portfolio </a></li>
-      <li class="studio-header-portfolio-link list"><a class="studio-header-portfolio link" href="">Contacts</a></li>
-       </ul>
-      -->
-       </nav>
-        <address class="address-header-address link">
-     
-      <ul class="address-header-address list"> 
-
-      
-         <li class="mail-address-header-address link"> <a class="mail-tel-address-header-address link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-         <li class="tel-address-header-address link"> <a class="mail-tel-address-header-address link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-      </ul>
-       </address>
-       
-     </div>
-     </header>
+  <header class="page-header">
+    <div class="container page-header-container">
+      <nav class="menu-page-nav">
+        <a class="logo-link link" href="./index.html"
+          >Web<span class="logo-text">Studio</span></a
+        >
+        <ul class="menu-page-nav-list list">
+          <li class="menu-page-nav-item list">
+            <a class="menu-page-nav-link active link" href="./index.html"
+              >Studio</a
+            >
+          </li>
+          <li class="menu-page-nav-item list">
+            <a class="menu-page-nav-link link" href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="menu-page-nav-item list">
+            <a class="menu-page-nav-link link" href="">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <button type="button" class="mobile-menu-open js-open-menu" data-menu-open>
+        <svg class="mobile-menu-open_icon" width="32" height="22">
+          <use href="./images/icon.svg#icon-charm_menu-hamburger-1"></use>
+        </svg>
+      </button>
+      <address class="contacts-address link">
+        <ul class="contacts-address list">
+          <li class="contacts-address-item">
+            <a class="contacts-address link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts-address-item">
+            <a class="contacts-address link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
+    </div>
+    <div class="mobile-menu js-menu-container" data-menu>
+      <div class="container mobile-menu_container">
+        <button class="mobile-menu_close-btn js-close-menu" data-menu-close>
+          <svg class="mobile-menu_close-icon" width="8" height="8">
+            <use href="./images/icon.svg#icon-modal"></use>
+          </svg>
+        </button>
+          <ul class="mobile-nav-list">
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-link active" href="./index.html">Studio</a>
+            </li>
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-link" href="">Contacts</a>
+            </li>
+          </ul>
+        <ul class="mobile-contacts-list">
+          <li class="mobile-contacts-item">
+            <a class="contacts-link-tel" href="tel:+11000111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="mobile-contacts-item">
+            <a class="contacts-link-mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="mobile-social-list">
+          <li class="mobile-social-item">
+            <a href="" class="mobile-social-link">
+              <svg class="mobile-social-icon" width="16" height="16">
+                <use href="./images/icon.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-social-item">
+            <a href="" class="mobile-social-link">
+              <svg class="mobile-social-icon" width="16" height="16">
+                <use href="./images/icon.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-social-item">
+            <a href="" class="mobile-social-link">
+              <svg class="mobile-social-icon" width="16" height="16">
+                <use href="./images/icon.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-social-item">
+            <a href="" class="mobile-social-link">
+              <svg class="mobile-social-icon" width="16" height="16">
+                <use href="./images/icon.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
                 <!--section one    -->
      <main>
      
@@ -593,6 +673,6 @@
       </div>
     </div>
 
-    <script defer src="js/mobile-menu.js"></script>
+    <script defer src="./js/mobile-menu.js"></script>
 </body>
 </html>
