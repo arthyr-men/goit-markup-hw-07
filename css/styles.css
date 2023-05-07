@@ -462,7 +462,7 @@ button {
 
 
   .mobile-menu_close-btn {
-
+       opacity: 0.1;
       margin-left: auto;
       padding: 0;
       background-color: rgba(231, 233, 252, 0.1);
