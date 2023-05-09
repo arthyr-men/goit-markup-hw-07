@@ -1634,6 +1634,8 @@ screen and (min-resolution: 2dppx) and (min-width: 1158px) {
 }
 
 .btn-subscribe {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal; 
   background-color: var(--primary-brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
